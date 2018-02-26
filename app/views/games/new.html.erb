@@ -1,0 +1,8 @@
+<% @letters.each do |letter| %>
+<%= letter %>
+<% end %>
+
+<form action="/score">
+  <input type="text" name="answer">
+  <input type="submit" value="Ask!">
+</form>
